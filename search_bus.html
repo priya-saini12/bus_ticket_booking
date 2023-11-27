@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Bus Ticket Booking</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Bus</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+          
+           
+            </ul>
+           
+
+           <a href="index.html" class="text-white"><button class="btn btn-primary" type="submit">Logout</button></a>
+          
+          </div>
+        </div>
+      </nav>
+
+    <div class="container">
+    
+        <div class="row">
+            <div class="col-6 offset-3 form p-3 rounded-3">
+
+                        <form>
+                        
+                                <label class="active" for="departFrom">Depart From</label>
+                                <select name="Depart" id="Depart" class="form-control">
+                                    <option value="Depart">Depart</option>
+                                    <option value="Kangra">Kangra</option>
+                                    <option value="Una">Una</option>
+                                    <option value="Delhi">Delhi</option>
+                                    <option value="Chandigarh">Chandigarh</option>
+                                </select>
+
+                                <label class=" active" for="goingTo">Going To</label>
+                                <select name="Going" id="Going" class="form-control">
+                                    <option value="Going">Going</option>
+                                    <option value="Kangra">Kangra</option>
+                                    <option value="Una">Una</option>
+                                    <option value="Delhi">Delhi</option>
+                                    <option value="Chandigarh">Chandigarh</option>
+                                </select>
+                          
+                                <label class="active" for="departDate">Departure Date</label>
+                                    <input class="form-control" id="departDate" name="departDate" placeholder="Departure Date" type="date">
+                              
+                                <button class="btn btn-md btn-primary mt-2" type="submit"><a href="buses.html" class="text-white">Search Bus</a></button>
+                        </form>
+                  
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

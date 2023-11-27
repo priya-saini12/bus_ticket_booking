@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/bus1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.form{
+ background-color: rgba(255, 255, 255, 0.2);
+ margin-top: 5%;
+}
+a{
+    text-decoration: none;
+}
+.two_seats{
+    margin-top: 45px;
+}
+.last_seats{
+    padding-left: 10px;
+}
