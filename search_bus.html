@@ -51,7 +51,7 @@
                         <form>
                         
                                 <label class="active" for="departFrom">Depart From</label>
-                                <select name="Depart" id="Depart" class="form-control">
+                                <select name="Depart" id="depart" class="form-control">
                                     <option value="Depart">Depart</option>
                                     <option value="Kangra">Kangra</option>
                                     <option value="Una">Una</option>
@@ -60,7 +60,7 @@
                                 </select>
 
                                 <label class=" active" for="goingTo">Going To</label>
-                                <select name="Going" id="Going" class="form-control">
+                                <select name="Going" id="going" class="form-control">
                                     <option value="Going">Going</option>
                                     <option value="Kangra">Kangra</option>
                                     <option value="Una">Una</option>
@@ -71,7 +71,7 @@
                                 <label class="active" for="departDate">Departure Date</label>
                                     <input class="form-control" id="departDate" name="departDate" placeholder="Departure Date" type="date">
                               
-                                <button class="btn btn-md btn-primary mt-2" type="submit"><a href="buses.html" class="text-white">Search Bus</a></button>
+                                <button class="btn btn-md btn-primary mt-2" type="button" onclick="searchBus()">Search Bus</button>
                         </form>
                   
 
@@ -81,7 +81,7 @@
 
 
     <script src="assets/js/bootstrap.bundle.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/search_bus.js"></script>
 </body>
 
 </html>

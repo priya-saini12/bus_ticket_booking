@@ -22,3 +22,7 @@ a{
 .last_seats{
     padding-left: 10px;
 }
+#err1, #err2, #error1, #error2, #error3, #error4{
+    color: red;
+    font-size: 12px;
+}

@@ -20,25 +20,29 @@
       
 
                 <form>
-                    <label for="name"></label>
-                    <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Enter name">
+                   <div>
+                    <input type="text" class="form-control" id="name" placeholder="Enter name">
+                    <span id="error1"></span></div>
 
-                    <label for="number"></label>
-                    <input type="number" class="form-control" id="number" aria-describedby="number" placeholder="Enter Phone Number">             
+                   <div>
+                    <input type="number" class="form-control mt-3" id="number" placeholder="Enter Phone Number" >   
+                    <span id="error2"></span> </div>         
 
-                    <label for="email"></label>
-                    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Enter email">
+                  <div>
+                    <input type="email" class="form-control mt-3" id="email" placeholder="Enter email" >
+                    <span id="error3"></span></div>
                   
-                    <label for="password"></label>
-                    <input type="password" class="form-control" id="password" placeholder="Password">
+                   <div>
+                    <input type="password" class="form-control mt-3" id="password" placeholder="Password" >
+                    <span id="error4"></span></div>
               
-                    <button type="submit" class="btn btn-primary mt-2" onclick="registerData()" id="register">
-                         <a href="index.html" class="text-white">
+                    <button type="button" class="btn btn-primary mt-3" id="register" onclick="validateForm()">
+                         
                             Create Account
-                        </a>
+                      
                         </button>
                    
-                <p class="">Have an account? <a href="index.html">Log In</a> </p>                                                                 
+                <p class="">Have an account? <a href="index.html">Log In </a></p>                                                                 
             </form>
           
 
@@ -50,6 +54,6 @@
 
     
     <script src="assets/js/bootstrap.bundle.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/signup.js"></script>
 </body>
 </html>
