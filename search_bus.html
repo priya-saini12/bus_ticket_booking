@@ -45,12 +45,12 @@
 
     <div class="container">
     
-        <div class="row">
-            <div class="col-6 offset-3 form p-3 rounded-3">
+        <div class="row mt-5">
+            <div class="col-8 offset-2 form p-3 rounded-3">
 
-                        <form>
+                        <form class="d-flex p-2">
                         
-                                <label class="active" for="departFrom">Depart From</label>
+                                <!-- <label class="active" for="departFrom">Depart From</label> -->
                                 <select name="Depart" id="depart" class="form-control">
                                     <option value="Depart">Depart</option>
                                     <option value="Kangra">Kangra</option>
@@ -59,8 +59,8 @@
                                     <option value="Chandigarh">Chandigarh</option>
                                 </select>
 
-                                <label class=" active" for="goingTo">Going To</label>
-                                <select name="Going" id="going" class="form-control">
+                                <!-- <label class=" active" for="goingTo">Going To</label> -->
+                                <select name="Going" id="going" class="form-control ms-1">
                                     <option value="Going">Going</option>
                                     <option value="Kangra">Kangra</option>
                                     <option value="Una">Una</option>
@@ -68,10 +68,10 @@
                                     <option value="Chandigarh">Chandigarh</option>
                                 </select>
                           
-                                <label class="active" for="departDate">Departure Date</label>
-                                    <input class="form-control" id="departDate" name="departDate" placeholder="Departure Date" type="date" min="2023-11-28">
+                                <!-- <label class="active" for="departDate">Departure Date</label> -->
+                                    <input class="form-control ms-1" id="departDate" name="departDate" placeholder="Departure Date" type="date" min="2023-11-28">
                               
-                                <button class="btn btn-md btn-primary mt-2" type="button" onclick="searchBus()">Search Bus</button>
+                                <button class="btn btn-primary ms-1" type="button" onclick="searchBus()">Search</button>
                         </form>
                   
 
