@@ -4,12 +4,12 @@ function searchBus() {
     const departDateValue = document.getElementById('departDate').value;
   
     if (departValue === 'Depart' || goingValue === 'Going') {
-      alert('Please select a valid departure and arrival location.');
+      alert('Please select a valid locations.');
       return;
     }
   
     if (departValue === goingValue) {
-      alert('Departure and arrival locations cannot be the same.');
+      alert('Both locations cannot be the same.');
       return;
     }
   

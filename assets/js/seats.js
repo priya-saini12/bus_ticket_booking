@@ -10,7 +10,7 @@ function handleSeatSelection(seat) {
     seat.classList.remove('selected');
   } else {
     if (selectedSeats.length >= 5) {
-      alert('Maximum seat selection limit reached (5 seats)');
+      alert('You can select maximum 5 seats.');
       return;
     }
 
@@ -29,3 +29,6 @@ document.querySelector('.confirm_btn').addEventListener('click', () => {
     window.location.href = "../booking.html?seats";
   }
 });
+
+
+
